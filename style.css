@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+body {
+	background-color:#a7c4f2;
+}
+#contenedor {
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#encabezado {
+	background-image:url(img/hola.jpg);
+	height:200px;
+	width:900px;  
+}
+
+#botonera {
+    background-color: black;
+    padding: 12px 0;
+    text-align: center;
+}
+
+h1 {
+
+	font-family: "Playwrite DK Loopet", cursive;
+	text-shadow: 9px 9px 6px rgba(160,243,251,0.84);
+}
+h2 {
+font-family: "Playwrite DK Loopet", cursive;
+	text-shadow: 9px 9px 6px rgba(160,243,251,0.84);
+}
+h3 {
+font-family: "Playwrite DK Loopet", cursive;
+	text-shadow: 9px 9px 6px rgba(160,243,251,0.84);
+}
+#botonera ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#botonera ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#botonera ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Estilo para el contenido central */
+#centro {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+	width:900px;
+
+}
+
+#caja1, #caja2 {
+background: radial-gradient(ellipse at center, #ffffff 0%,#f7eb91 48%,#ffffff 100%,#7db9e8 100%);
+    padding: 30px;
+    border-radius: 10px;
+	box-shadow: 33px 26px 55px -1px rgba(208,226,63,0.67);
+}
+
+#caja1 {
+    flex: 2;
+    margin-right: 15px; /* Espacio entre caja1 y caja2 */
+}
+
+#caja2 {
+    flex: 1;
+}
+
+
+#pie {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+img {
+	width:300px;
+        height:auto;
+}
+.centrado {
+	text-align:center;
+}
